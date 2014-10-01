@@ -1,0 +1,16 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<h1>{% trans "Početna stranica galerija" %}</h1>
+{% for gallery in gallery_list %}
+    {% if request.LANGUAGE_CODE == 'sr-latn' %}
+        <p><a href="{% url "gallery:gallery" gallery.pk %}">{{ gallery.name_sr }}</a> | {% if gallery.event %}{{ gallery.event }}{% endif %} | {{ gallery.short_description_sr }}</p>
+
+    {% elif request.LANGUAGE_CODE == 'hu' %}
+        <p><a href="{% url "gallery:gallery" gallery.pk %}">{{ gallery.name_hu }}</a> | {% if gallery.event %}{{ gallery.event }}{% endif %} | {{ gallery.short_description_hu }}</p>
+
+    {% elif request.LANGUAGE_CODE == 'en' %}
+        <p><a href="{% url "gallery:gallery" gallery.pk %}">{{ gallery.name_en }}</a> | {% if gallery.event %}{{ gallery.event }}{% endif %} | {{ gallery.short_description_en }}</p>
+    {% endif %}
+{% endfor %}
+<a href="{% url 'home:index' %}">{% trans "Početna" %}</a>

@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-07 14:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:7
+msgid "full name"
+msgstr "ime i prezime"
+
+#: models.py:8
+msgid "Full name please."
+msgstr "Puno ime i prezime molim."
+
+#: models.py:9
+msgid "valid email"
+msgstr "email adresa"
+
+#: models.py:9
+msgid "Type a valid email."
+msgstr "Ukucajte validnu email adresu."
+
+#: models.py:10
+msgid "subject"
+msgstr "tema"
+
+#: models.py:11
+msgid "Type short topic."
+msgstr "Ukratko tema."
+
+#: models.py:12
+msgid "message"
+msgstr "poruka"
+
+#: models.py:13
+msgid "Type Your message."
+msgstr "Ukucajte Vašu poruku."
+
+#: models.py:14
+msgid "date submited"
+msgstr "datum poruke"
+
+#: models.py:15
+msgid "web site"
+msgstr "web site"
+
+#: models.py:16
+msgid "Optional. Your Web Site."
+msgstr "Opciono. Vaša web stranica."
+
+#: models.py:19
+msgid "contact"
+msgstr "kontakt"
+
+#: models.py:20
+msgid "contacts"
+msgstr "kontakti"
+
+#: templates/contact/index.html:6
+msgid "Kontakt"
+msgstr "Kontakt"
+
+#: templates/contact/index.html:12
+msgid ""
+"Molimo Vaše razumevanje jer moramo proveriti da niste automatizovan proces."
+msgstr "Molimo Vaše razumevanje jer moramo proveriti da niste automatizovan proces."
+
+#: templates/contact/index.html:16 templates/contact/message_sent.html:11
+msgid "Početna"
+msgstr "Početna"
+
+#: templates/contact/index.html:18
+msgid "Gde se nalazimo"
+msgstr "Gde se nalazimo"
+
+#: templates/contact/message_sent.html:4
+msgid "Poruka je uspešno poslata"
+msgstr "Poruka je uspešno poslata"
+
+#: templates/contact/message_sent.html:5
+msgid "Hvala"
+msgstr "Hvala"
+
+#: templates/contact/message_sent.html:5
+msgid "što ste nam pisali."
+msgstr "što ste nam pisali."
+
+#: templates/contact/message_sent.html:6
+msgid "Vaša poruka je uspešno poslata."
+msgstr "Vaša poruka je uspešno poslata."
+
+#: templates/contact/message_sent.html:7
+msgid "Ako ste u poruci tražili, uskoro ćemo Vas kontaktirati."
+msgstr "Ako ste u poruci tražili, uskoro ćemo Vas kontaktirati."

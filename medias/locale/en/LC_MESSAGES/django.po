@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-01 09:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.py:9 admin.py:22
+msgid "Title"
+msgstr ""
+
+#: admin.py:10 admin.py:23
+msgid "File stuff"
+msgstr ""
+
+#: admin.py:11 admin.py:24
+msgid "Publishing Settings"
+msgstr ""
+
+#: admin.py:12 admin.py:25
+msgid "Date Uploaded"
+msgstr ""
+
+#: forms.py:42
+msgid "Only 'avi', 'mov', 'ogg', 'wav' and 'mp3' files allowed!"
+msgstr ""
+
+#: forms.py:45
+msgid "File type not supported."
+msgstr ""
+
+#: models.py:11
+msgid "audio archive title on serbian"
+msgstr ""
+
+#: models.py:12
+msgid "audio archive title on hungarian"
+msgstr ""
+
+#: models.py:13
+msgid "audio archive title on english"
+msgstr ""
+
+#: models.py:15 models.py:41
+msgid "publishing date"
+msgstr ""
+
+#: models.py:17 models.py:43
+msgid "upload date"
+msgstr ""
+
+#: models.py:18 models.py:44
+msgid "is publishable?"
+msgstr ""
+
+#: models.py:19 models.py:45
+msgid "audio file"
+msgstr ""
+
+#: models.py:20 models.py:46
+msgid "meeting leader"
+msgstr ""
+
+#: models.py:32
+msgid "audio archive"
+msgstr ""
+
+#: models.py:33
+msgid "audio archives"
+msgstr ""
+
+#: models.py:37
+msgid "video archive title on serbian"
+msgstr ""
+
+#: models.py:38
+msgid "video archive title on hungarian"
+msgstr ""
+
+#: models.py:39
+msgid "video archive title on english"
+msgstr ""
+
+#: models.py:58
+msgid "video archive"
+msgstr ""
+
+#: models.py:59
+msgid "video archives"
+msgstr ""
+
+#: templates/medias/archive-list.html:5 templates/medias/archive-list.html:8
+#: templates/medias/index.html:20
+msgid "Arhiva medije"
+msgstr "Media Archive"
+
+#: templates/medias/archive-list.html:13
+msgid "Početna medija"
+msgstr "Media Home Page"
+
+#: templates/medias/archive-list.html:15 templates/medias/index.html:23
+msgid "Početna"
+msgstr "Home"
+
+#: templates/medias/index.html:5 templates/medias/index.html.py:8
+msgid "Medija"
+msgstr "Media"
+
+#: templates/medias/index.html:10
+msgid ""
+"Svake nedelje u 18:00 časova možete slušati uživo stream našeg bogosluženja."
+msgstr ""
+"Every Sunday at 6:00 PM, You can listen live stream of our service from "
+"Church."
+
+#: templates/medias/index.html:13
+msgid "Klikni za biblijski čas"
+msgstr "Click for the Bible Study Class"
+
+#: templates/medias/index.html:15
+msgid "Pogledaj koncert u Gradskoj kući u Subotici"
+msgstr "Take a look at concert at City Hall at Subotica"

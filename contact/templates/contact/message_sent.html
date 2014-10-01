@@ -1,0 +1,11 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<h3>{% trans "Poruka je uspešno poslata" %}</h3>
+<p>{% trans "Hvala" %}, <strong>{{ contact.name }}</strong> {% trans "što ste nam pisali." %}</p>
+<p>{% trans "Vaša poruka je uspešno poslata." %}</p>
+<p>{% trans "Ako ste u poruci tražili, uskoro ćemo Vas kontaktirati." %}</p>
+
+<br />
+
+<a href="{% url 'home:index' %}">{% trans "Početna" %}</a>

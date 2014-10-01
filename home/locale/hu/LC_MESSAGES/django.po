@@ -1,0 +1,537 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-30 09:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin.py:60
+msgid "Introduction"
+msgstr "bemutatkozás"
+
+#: admin.py:61
+msgid "Statement"
+msgstr "Nyilatkozat"
+
+#: admin.py:62
+msgid "Services"
+msgstr "Szolgálat"
+
+#: forms.py:22
+msgid "Title"
+msgstr "Cím"
+
+#: forms.py:49
+#, python-format
+msgid "Please keep filesize under %(bytes)s. Current filesize is %(currsize)s"
+msgstr ""
+"Kérjük a file mérete legyen %(bytes)s alatt. Mostani file mérete %(currsize)s"
+
+#: forms.py:52
+msgid "Only 'jpg', 'gif' and 'png' image files allowed!"
+msgstr "Csak a 'jpg', 'gif' és 'png' file-ok engedélyezettek.!"
+
+#: forms.py:55
+msgid "File type not supported."
+msgstr "Nem támogatott file típus."
+
+#: models.py:15
+msgid "Pastor"
+msgstr "Pásztor"
+
+#: models.py:16
+msgid "Učitelj"
+msgstr "Tanító"
+
+#: models.py:17
+msgid "Đakon"
+msgstr "Diakónus"
+
+#: models.py:18
+msgid "Vođa slavljenja"
+msgstr "Dicsőítés vezető"
+
+#: models.py:19
+msgid "Član tima za slavljenje"
+msgstr "Dicsőítés csapat tagja"
+
+#: models.py:20
+msgid "Pomoćnik"
+msgstr "Segítő"
+
+#: models.py:21
+msgid "Volunter"
+msgstr "Önkéntes"
+
+#: models.py:22
+msgid "Prevodilac"
+msgstr "Fordító"
+
+#: models.py:23
+msgid "Gost"
+msgstr "Vendég"
+
+#: models.py:29
+msgid "rank on serbian"
+msgstr "rang szerbül"
+
+#: models.py:31
+msgid "rank on hungarian"
+msgstr "rang magyarul"
+
+#: models.py:33
+msgid "rank on english"
+msgstr "rang angolul"
+
+#: models.py:38
+msgid "staff rank"
+msgstr "személyzet rang"
+
+#: models.py:39
+msgid "staff ranks"
+msgstr "személyzet rangok"
+
+#: models.py:48
+msgid "first name"
+msgstr "vezeték név"
+
+#: models.py:49
+msgid "last name"
+msgstr "kereszt név"
+
+#: models.py:50
+msgid "nickname"
+msgstr "becenév"
+
+#: models.py:55
+msgid "staff portrait image"
+msgstr "személyzet portré kép"
+
+#: models.py:57
+msgid "Only 'jpg', 'gif'  and 'png' image files allowed under 2.5 MB size!"
+msgstr "Csak 'jpg', 'gif'  és 'png' filé-ok engedélyezettek és 2.5 MB alatt!"
+
+#: models.py:59
+msgid "is image publishable?"
+msgstr "kép publikálható?"
+
+#: models.py:63
+msgid "is email publishable?"
+msgstr "email publikálható?"
+
+#: models.py:66
+msgid "web page"
+msgstr "web oldal"
+
+#: models.py:68
+msgid "is web page publishable?"
+msgstr "web oldal publikálható"
+
+#: models.py:71
+msgid "facebook profile page"
+msgstr "facebook profil oldal"
+
+#: models.py:73
+msgid "is facebook web page publishable?"
+msgstr "facebook profil oldal publikálható?"
+
+#: models.py:76
+msgid "mobile phone"
+msgstr "mobil telefon"
+
+#: models.py:78
+msgid "is mobile phone number publishable?"
+msgstr "mobil telefon publikálható?"
+
+#: models.py:81
+msgid "phone"
+msgstr "vezetékes telefon"
+
+#: models.py:82
+msgid "is phone number publishable?"
+msgstr "vezetékes telefon publikálható"
+
+#: models.py:85
+msgid "title"
+msgstr "cím"
+
+#: models.py:87
+msgid "about me"
+msgstr "rólam"
+
+#: models.py:89
+msgid "date registered"
+msgstr "regisztráció datuma"
+
+#: models.py:94
+msgid "staff"
+msgstr "személyzet"
+
+#: models.py:95
+msgid "staffs"
+msgstr "személyzet"
+
+#: models.py:100 models.py:257
+msgid "Get me a title of staff."
+msgstr "Személyzet rangja"
+
+#: models.py:114
+msgid "Ponedeljak"
+msgstr "Hétfő"
+
+#: models.py:115
+msgid "Utorak"
+msgstr "Kedd"
+
+#: models.py:116
+msgid "Sreda"
+msgstr "Szerda"
+
+#: models.py:117
+msgid "Četvrtak"
+msgstr "Csütörök"
+
+#: models.py:118
+msgid "Petak"
+msgstr "Péntek"
+
+#: models.py:119
+msgid "Subota"
+msgstr "Szombat"
+
+#: models.py:120
+msgid "Nedelja"
+msgstr "Vasárnap"
+
+#: models.py:134
+msgid "Nema sastanka"
+msgstr "Nincs összejövetel"
+
+#: models.py:135
+msgid "Biblijski čas"
+msgstr "Biblia óra"
+
+#: models.py:136
+msgid "Molitveni čas"
+msgstr "Ima óra"
+
+#: models.py:137
+msgid "Slavljenje"
+msgstr "Dicsőítés"
+
+#: models.py:138
+msgid "Muški čas"
+msgstr "Férfi összejövetel"
+
+#: models.py:139
+msgid "Ženski čas"
+msgstr "Nói összejövetel"
+
+#: models.py:140
+msgid "Kučno zajedništvo"
+msgstr "házi összejövetel"
+
+#: models.py:153
+msgid "meeting name on serbian"
+msgstr "összejövetel szerbül"
+
+#: models.py:156
+msgid "meeting name on hungarian"
+msgstr "összejövetel magyarul"
+
+#: models.py:159
+msgid "meeting name on english"
+msgstr "összejövetel angolul"
+
+#: models.py:165
+msgid "meeting type"
+msgstr "összejövetel fajta"
+
+#: models.py:166
+msgid "meeting types"
+msgstr "összejövetel fajtái"
+
+#: models.py:181
+msgid "day on serbian"
+msgstr "nap szerbül"
+
+#: models.py:183
+msgid "day on hungarian"
+msgstr "nap magyarul"
+
+#: models.py:185
+msgid "day on english"
+msgstr "nap angolul"
+
+#: models.py:187
+msgid "is regular meeting day?"
+msgstr "szokásos összejöveteli nap?"
+
+#: models.py:191
+msgid "week day"
+msgstr "heti nap"
+
+#: models.py:192
+msgid "week days"
+msgstr "heti napok"
+
+#: models.py:210
+msgid "meeting day"
+msgstr "összejövetel nap"
+
+#: models.py:211
+msgid "meeting date"
+msgstr "összejövetel dátuma"
+
+#: models.py:212
+msgid "hour of meeting"
+msgstr "összejövetel órája"
+
+#: models.py:214
+msgid "meeting category"
+msgstr "összejövetel kategóriája"
+
+#: models.py:219
+msgid "meeting leader"
+msgstr "összejövetel vezető"
+
+#: models.py:221
+msgid "is meeting leader publishable?"
+msgstr "összejövetel vezetó publikálható?"
+
+#: models.py:223
+msgid "is weekly meeting?"
+msgstr "heti összejövetel?"
+
+#: models.py:228
+msgid "regular meeting"
+msgstr "szokásos összejövetel"
+
+#: models.py:229
+msgid "regular meetings"
+msgstr "szokásos összejövetelek"
+
+#: models.py:244
+msgid "Return me a day."
+msgstr "Kérem a napot."
+
+#: models.py:248
+msgid "is this a weekly meeting?"
+msgstr "heti összejövetel?"
+
+#: models.py:277
+msgid "introduction on english"
+msgstr "bemutatkozás angolul"
+
+#: models.py:278
+msgid "introduction on serbian"
+msgstr "bemutatkozás szerbül"
+
+#: models.py:279
+msgid "introduction on hungarian"
+msgstr "bemutatkozás magyarul"
+
+#: models.py:282
+msgid "statement on english"
+msgstr "kijelentés angolul"
+
+#: models.py:283
+msgid "statement on serbian"
+msgstr "kijelentés szerbül"
+
+#: models.py:284
+msgid "statement on hungarian"
+msgstr "kijelentés magyarul"
+
+#: models.py:287
+msgid "services on english"
+msgstr "istentisztelet angolul"
+
+#: models.py:288
+msgid "services on serbian"
+msgstr "istentisztelet szerbül"
+
+#: models.py:289
+msgid "services on hungarian"
+msgstr "istentisztelent magyarul"
+
+#: models.py:296
+msgid "home page content"
+msgstr "indító oldal tartalma"
+
+#: models.py:297
+msgid "home page contents"
+msgstr "indító oldal tartalma"
+
+#: templates/home/detail-staff.html:11
+msgid "Golgota - Detalji osoblja"
+msgstr "Golgota - Részletesebben a személyzetről"
+
+#: templates/home/detail-staff.html:17
+msgid "Detalji osoblja"
+msgstr "Személyzet részletek"
+
+#: templates/home/detail-staff.html:27
+msgid "O meni:"
+msgstr "Rólam:"
+
+#: templates/home/index.html:9
+msgid "Golgota Hrišćanska Zajednica - Subotica"
+msgstr "Golgota keresztény gyülekezett - Szabadka"
+
+#: templates/home/index.html:36
+msgid "Početna"
+msgstr "Kezdőlap"
+
+#: templates/home/index.html:37 templates/home/index.html.py:111
+msgid "Događaji"
+msgstr "Események"
+
+#: templates/home/index.html:38
+msgid "Galerija"
+msgstr "Galéria"
+
+#: templates/home/index.html:39
+msgid "Media"
+msgstr "Média"
+
+#: templates/home/index.html:40
+msgid "Kontakt"
+msgstr "Kapcsolat"
+
+#: templates/home/index.html:41
+msgid "Linkovi"
+msgstr "Linkek"
+
+#. Translators: html Introduction part
+#: templates/home/index.html:46
+msgid ""
+"Mi smo kao što nam to i ime govori, Hrišćanska Crkva. Verujemo da Biblija "
+"nije samo obična knjiga koju je lepo imati na svojoj polici pored drugih "
+"velikih i poznatih dela. Bibliju su pisali obični ljudi ali su bili "
+"inspirisani Božijim Duhom. Prosto rečeno - Bog im je diktirao šta da pišu i "
+"zato verujemo da je ona Božija reč! Ni jedno pisano poznato delo nije ni "
+"približno Bibliji."
+msgstr ""
+"Mi kersztény gyülekezet vagyunk. Hisszünk, hogy a Biblia nem akár milyen "
+"könyvamely és, hogy jó ha van egy példány a tulajdonunkban. Hisszük, hogy a "
+"Bibiát mindenapos emberek írták de Isten Szellemtől ihlettek. Egyszerűen: "
+"Isten inspirálta, hogy mit írjanak és ezért hívjuk még Isten Igéjének vagy "
+"Isten Szavának. Egyetlen egy ismert műt nem tartunk még hasonlónak sem a "
+"Bibliához."
+
+#: templates/home/index.html:47
+msgid ""
+"Ne pripadamo ni jednoj denominaciji! Kao što je bilo pre 2000 godina kada je "
+"Isus došao. Oni koji su sledili Isusa nisu imali nikakvo posebno ime, "
+"posebno odelo niti su bili deo neke denominacije pošto tada one nisu ni "
+"postojale! Prvi vernici su jednostavno verovali u Isusa i sledili ga."
+msgstr ""
+"Nem tartozunk semmilyen felekezethez! Úgy ahogy 2000 évvel ezelőtt volt "
+"amikor Jézus itt járt a földön úgy van most is. Azok akik követték Őt nem "
+"volt semmilyen jelölésük, nevük és nem tartoztak semmilyen felekezethez, "
+"mert akkor azok még nem is léteztek. Az első hívők csupán egyszerűen hittek "
+"Jézusban és követték Őt."
+
+#: templates/home/index.html:48
+msgid "Forma Bogosluženja"
+msgstr "Istentisztelet formája"
+
+#: templates/home/index.html:49
+msgid ""
+"Imamo par Biblijskih časova tokom nedelje. Tada zajedno slavimo Boga kroz "
+"pesme koje Njemu upućujemo. Nakon toga proučavamo Bibliju u vidu "
+"predavanja.  Pastor sa propovedaonice predaje. Bibliju proučavamo celu i ne "
+"naglašavamo ni jedan deo kao važniji od drugog. Sve je jednako važno!"
+msgstr ""
+"Tartunk hetente pár biblia órát. Akkor összejővünk és dicsőítjük az Istent "
+"énekekkel amit neki szánunk. Azután tanulmányozzuk a Bibliát Tanító vagy "
+"Pásztor vezetésével prédikálás által. Bibliát teljes egészében "
+"tanulmányozzuk és nem hangsúlyozzunk egyetlen részt sem jobban mint a "
+"másikat. Mindent egyforma fontosnak tartunk!"
+
+#: templates/home/index.html:50
+msgid "Program:"
+msgstr "Programban:"
+
+#: templates/home/index.html:51
+msgid "Nedeljni sastanci"
+msgstr "Heti összejövetelek"
+
+#: templates/home/index.html:59 templates/home/index.html.py:89
+msgid "Dan"
+msgstr "Nap"
+
+#: templates/home/index.html:60 templates/home/index.html.py:90
+msgid "Datum"
+msgstr "Dátum"
+
+#: templates/home/index.html:61 templates/home/index.html.py:91
+msgid "Vreme"
+msgstr "Idő"
+
+#: templates/home/index.html:62 templates/home/index.html.py:92
+msgid "Vrsta sastanka"
+msgstr "Összejövetel típusa"
+
+#: templates/home/index.html:63 templates/home/index.html.py:93
+msgid "Vođa sastanka"
+msgstr "Összejövetel vezetője"
+
+#: templates/home/index.html:81
+msgid "Ostali sastanci"
+msgstr "Többi összejövetel"
+
+#: templates/home/index.html:114
+msgid "Vrsta"
+msgstr "Fajta"
+
+#: templates/home/index.html:115
+msgid "Događaj"
+msgstr "Esemény"
+
+#: templates/home/index.html:118
+msgid "Početak"
+msgstr "Kezdődik"
+
+#: templates/home/index.html:119
+msgid "Kraj"
+msgstr "Fejeződik"
+
+#: templates/home/index.html:120
+msgid "Kada se održava?"
+msgstr "Mikor lesz?"
+
+#. Translators: html Statement
+#: templates/home/index.html:175
+msgid "Verujemo (Izjava vere)"
+msgstr "Hisszük (Hit nyilatkozat)"
+
+#: templates/home/index.html:176
+msgid ""
+"Da je Isus Hrist jedini Put, Istina i Život i da niko ne može doći do Boga "
+"samo kroz veru u Isusa Hrista. Svi smo grešni i ne postoji niko ko za sebe "
+"može reći da je pravedan i čist pred Njim, a ako to tvrdi onda laže samog "
+"sebe! Naš greh nas razdvaja od Boga i vodi u pakao! Jedini spas je Isus! Ko "
+"god veruje u Njega biće spašen od pakla."
+msgstr ""
+"Hisszük és valjuk, hogy Jézus Krisztus az egyetlen Út, Igazság és az Élet és "
+"senki nem tud eljutni Istenhez hanem csak Jézus Krisztuba vetett hitt által. "
+"Mindeki bűnös és nem létezik senki aki igaznak és megigazultnak mondhatja "
+"magát Isten előtt. Ha valaki azt állítja az meghazutólja magát. A mi bűneink "
+"elválasztanak minket az Istentől és pokolba irányába vezetnek minket. Az "
+"egyedül megmenekülés Jézus!"
+

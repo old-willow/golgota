@@ -1,0 +1,174 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %} <html>
+<head lang="{{ LANGUAGE_CODE }}">
+<meta charset="utf-8">
+<title>{% trans "Golgota Hrišćanska Zajednica - Subotica" %}</title>
+<link rel="shortcut icon" href="{% static "images/favicon.gif" %}" />
+<link rel="stylesheet" type="text/css" href="{% static "home/css/style.css" %}" />
+</head>
+<body>
+    <div id="language_chooser">
+        <form action="{% url 'set_language' %}" method="post">
+        {% csrf_token %}
+        <input name="next" type="hidden" value="{{ request.get_full_path|slice:'3:' }}" />
+        <select name="language">
+            {% get_language_info_list for LANGUAGES as languages %}
+            {% for language in languages %}
+                <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>
+                {{ language.name_local }} ({{ language.code }})
+                </option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Change" />
+        </form>
+    </div>
+
+    <div id="image slider"></div>
+
+    <div id="divlogo"><img src="{% static "images/logo.png" %}" alt="logo-golgota" /></i></div>
+
+    <div id="navdiv">
+        <ul>
+            <li><a href="{% url 'home:index' %}">{% trans "Početna" %}</a></li>
+            <li><a href="{% url 'events:index' %}">{% trans "Događaji" %}</a></li>
+            <li><a href="{% url 'gallery:index' %}">{% trans "Galerija" %}</a></li>
+            <li><a href="{% url 'medias:index' %}">{% trans "Media" %}</a></li>
+            <li><a href="{% url 'contact:index' %}">{% trans "Kontakt" %}</a></li>
+            <li><a href="{% url 'links:index' %}">{% trans "Linkovi" %}</a></li>
+        </ul>
+    </div>
+
+    {% comment %} Translators: html Introduction part {% endcomment %}
+    <p>{% trans "Mi smo kao što nam to i ime govori, Hrišćanska Crkva. Verujemo da Biblija nije samo obična knjiga koju je lepo imati na svojoj polici pored drugih velikih i poznatih dela. Bibliju su pisali obični ljudi ali su bili inspirisani Božijim Duhom. Prosto rečeno - Bog im je diktirao šta da pišu i zato verujemo da je ona Božija reč! Ni jedno pisano poznato delo nije ni približno Bibliji." %}</p>
+    <p>{% trans "Ne pripadamo ni jednoj denominaciji! Kao što je bilo pre 2000 godina kada je Isus došao. Oni koji su sledili Isusa nisu imali nikakvo posebno ime, posebno odelo niti su bili deo neke denominacije pošto tada one nisu ni postojale! Prvi vernici su jednostavno verovali u Isusa i sledili ga." %}</p>
+    <h3>{% trans "Forma Bogosluženja" %}</h3>
+    <p>{% trans "Imamo par Biblijskih časova tokom nedelje. Tada zajedno slavimo Boga kroz pesme koje Njemu upućujemo. Nakon toga proučavamo Bibliju u vidu predavanja.  Pastor sa propovedaonice predaje. Bibliju proučavamo celu i ne naglašavamo ni jedan deo kao važniji od drugog. Sve je jednako važno!" %}</p>
+    <h3>{% trans "Program:" %}</h3>
+    <h3>{% trans "Nedeljni sastanci" %}</h3>
+    <table id="weekly_meeting_table" style="width:700px; border: 1px solid red;">
+        <tr style="border: 1px solid;">
+            <!--<td style="border: 1px solid;"><strong>{{ field_names.1|title }}</strong></td>
+            <td style="border: 1px solid;"><strong>{{ field_names.2|title }}</strong></td>
+            <td style="border: 1px solid;"><strong>{{ field_names.3|title }}</strong></td>
+            <td style="border: 1px solid;"><strong>{{ field_names.4|title }}</strong></td>
+            <td style="border: 1px solid;"><strong>{{ field_names.5|title }}</strong></td>-->
+            <td style="border: 1px solid;"><strong>{% trans "Dan" %}</strong></td>
+            <td style="border: 1px solid;"><strong>{% trans "Datum" %}</strong></td>
+            <td style="border: 1px solid;"><strong>{% trans "Vreme" %}</strong></td>
+            <td style="border: 1px solid;"><strong>{% trans "Vrsta sastanka" %}</strong></td>
+            <td style="border: 1px solid;"><strong>{% trans "Vođa sastanka" %}</strong></td>
+        </tr>
+        {% for meeting in weekly_meetings %}
+            <tr style="border: 1px solid;">
+                <td><strong>{{ meeting.get_day }}</strong></td>
+                {% if meeting.is_weekly %}
+                    <td><span style="color: #808080;">{{ dates.next }}</span></td>
+                {% else %}
+                    <td>{{ dates.next }}</td>
+                {% endif %}
+                <td>{{ meeting.hour }}</td>
+                <td><strong>{{ meeting.get_meeting_type|title }}</strong></td>
+                {% comment %}{% endcomment %}
+                <td><strong><a href="{% url 'staff-detail' meeting.get_meeting_leader_templates %}">{{ meeting.get_meeting_leader_templates }}</a></strong></td>
+                {% comment %}{% endcomment %}
+            </tr>
+        {% endfor %}
+    </table>
+    <h3>{% trans "Ostali sastanci" %}</h3>
+    <table id="other_meeting_table" style="width:700px; border: 1px solid red;">
+        <tr style="border: 1px solid;">
+            <!--<td style="border: 1px solid;"><strong>{{ field_names.1|title }}</strong></td>
+            <td style="border: 1px solid;"><strong>{{ field_names.2|title }}</strong></td>
+            <td style="border: 1px solid;"><strong>{{ field_names.3|title }}</strong></td>
+            <td style="border: 1px solid;"><strong>{{ field_names.4|title }}</strong></td>
+            <td style="border: 1px solid;"><strong>{{ field_names.5|title }}</strong></td>-->
+            <td style="border: 1px solid;"><strong>{% trans "Dan" %}</strong></td>
+            <td style="border: 1px solid;"><strong>{% trans "Datum" %}</strong></td>
+            <td style="border: 1px solid;"><strong>{% trans "Vreme" %}</strong></td>
+            <td style="border: 1px solid;"><strong>{% trans "Vrsta sastanka" %}</strong></td>
+            <td style="border: 1px solid;"><strong>{% trans "Vođa sastanka" %}</strong></td>
+        </tr>
+        {% for other in other_meetings %}
+            <tr style="border: 1px solid;">
+                <td><strong>{{ other.get_day }}</strong></td>
+                <td>{{ other.date }}</td>
+                <td>{{ other.hour }}</td>
+                <td><strong>{{ other.get_meeting_type|title }}</strong></td>
+                {% comment %}{% endcomment %}
+                <td><strong><a href="{% url 'staff-detail' other.get_meeting_leader_templates %}">{{ other.get_meeting_leader_templates }}</a></strong></td>
+                {% comment %}{% endcomment %}
+            </tr>
+        {% endfor %}
+    </table>
+
+    {% if events_filtered %}
+    {% comment %}{{ events_filtered }}{% endcomment %}
+        <h3>{% trans "Događaji" %}</h3>
+        <table id="other_meeting_table" style="width:700px; border: 1px solid red;">
+            <tr style="border: 1px solid;">
+                <td style="border: 1px solid;"><strong>{% trans "Vrsta" %}</strong></td>
+                <td style="border: 1px solid;"><strong>{% trans "Događaj" %}</strong></td>
+                {% comment %}<td style="border: 1px solid;"><strong>{% trans "Tema" %}</strong></td>{% endcomment %}
+                <td style="border: 1px solid;"><strong>{% trans "Početak" %}</strong></td>
+                <td style="border: 1px solid;"><strong>{% trans "Kraj" %}</strong></td>
+                <td style="border: 1px solid;"><strong>{% trans "Kada se održava?" %}</strong></td>
+            </tr>
+            {% for event in events_filtered %}
+                <tr style="border: 1px solid;">
+                    {% if LANGUAGE_CODE == 'sr-latn' %}
+                        <td>{{ event.type }}</td>
+                        <td><a href="{% url 'events:detail' event.id %}">{{ event.title_sr }}<a</td>
+                        {% comment %}<td>{{ event.short_description_sr }}</td>{% endcomment %}
+                        <td>{{ event.event_start_date }}</td>
+                        <td>{{ event.event_end_date }}</td>
+                        <td>{{ event.event_happen_in_time }}</td>
+
+                    {% elif LANGUAGE_CODE == 'hu' %}
+                        <td>{{ event.type }}</td>
+                        <td><a href="{% url 'events:detail' event.id %}">{{ event.title_hu }}</a></td>
+                        {% comment %}<td>{{ event.short_description_hu }}</td>{% endcomment %}
+                        <td>{{ event.event_start_date }}</td>
+                        <td>{{ event.event_end_date }}</td>
+                        <td>{{ event.event_happen_in_time }}</td>
+
+                    {% elif LANGUAGE_CODE == 'en' %}
+                        <td>{{ event.type }}</td>
+                        <td><a href="{% url 'events:detail' event.id %}">{{ event.title_en }}</a></td>
+                        {% comment %}<td>{{ event.short_description_en }}</td>{% endcomment %}
+                        <td>{{ event.event_start_date }}</td>
+                        <td>{{ event.event_end_date }}</td>
+                        <td>{{ event.event_happen_in_time }}</td>
+                    {% endif%}
+                </tr>
+            {% endfor %}
+            {% comment %}
+            <tr style="border: 1px solid;">
+            {% if event_future %}
+                {% for event in event_future %}
+                    {% if event.is_event_future %}
+                        <td>{{ event.type }}</td>
+                        <td>{{ event.title_sr }}</td>
+                        <td>{{ event.short_description_sr }}</td>
+                        <td>{{ event.event_start_date }}</td>
+                        <td>{{ event.event_end_date }}</td>
+                        <td>{{ event.event_happen_in_time }}</td>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            </tr>
+            {% endcomment %}
+        </table>
+    {% else %}
+    <p>No filterd events</p>
+    {% endif %}
+    {% comment %} Translators: html Statement {% endcomment %}
+    <h3>{% trans "Verujemo (Izjava vere)" %}</h3>
+    <p>{% trans "Da je Isus Hrist jedini Put, Istina i Život i da niko ne može doći do Boga samo kroz veru u Isusa Hrista. Svi smo grešni i ne postoji niko ko za sebe može reći da je pravedan i čist pred Njim, a ako to tvrdi onda laže samog sebe! Naš greh nas razdvaja od Boga i vodi u pakao! Jedini spas je Isus! Ko god veruje u Njega biće spašen od pakla." %}
+    <div id="footer"></div>
+
+</body>
+</html>

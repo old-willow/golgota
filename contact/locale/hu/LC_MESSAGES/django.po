@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-07 14:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: models.py:7
+msgid "full name"
+msgstr "Teljes név"
+
+#: models.py:8
+msgid "Full name please."
+msgstr "Teljes nevet kérünk."
+
+#: models.py:9
+msgid "valid email"
+msgstr "Email cím"
+
+#: models.py:9
+msgid "Type a valid email."
+msgstr "Elérhetőségi-valódi, email címet kérünk."
+
+#: models.py:10
+msgid "subject"
+msgstr "téma"
+
+#: models.py:11
+msgid "Type short topic."
+msgstr "Csak röviden a téma leírás."
+
+#: models.py:12
+msgid "message"
+msgstr "üzenet"
+
+#: models.py:13
+msgid "Type Your message."
+msgstr "Ide írja az üzenetét."
+
+#: models.py:14
+msgid "date submited"
+msgstr "üzenet dátuma"
+
+#: models.py:15
+msgid "web site"
+msgstr "web oldal"
+
+#: models.py:16
+msgid "Optional. Your Web Site."
+msgstr "Nem szükséges. Web oldal."
+
+#: models.py:19
+msgid "contact"
+msgstr "kapcsolat"
+
+#: models.py:20
+msgid "contacts"
+msgstr "kapcsolatok"
+
+#: templates/contact/index.html:6
+msgid "Kontakt"
+msgstr "Kapcsolat"
+
+#: templates/contact/index.html:12
+msgid ""
+"Molimo Vaše razumevanje jer moramo proveriti da niste automatizovan proces."
+msgstr ""
+"Kérjük az Ön megértését, le kell ellenőriznünk, hogy nem egy automato "
+"folyamat van a háttérben."
+
+#: templates/contact/index.html:16 templates/contact/message_sent.html:11
+msgid "Početna"
+msgstr "Kezdőlap"
+
+#: templates/contact/index.html:18
+msgid "Gde se nalazimo"
+msgstr "Mere lehet minket megtalálni"
+
+#: templates/contact/message_sent.html:4
+msgid "Poruka je uspešno poslata"
+msgstr "Üzenet sikeresen kézbesítve"
+
+#: templates/contact/message_sent.html:5
+msgid "Hvala"
+msgstr "Köszönjük"
+
+#: templates/contact/message_sent.html:5
+msgid "što ste nam pisali."
+msgstr ", hogy kapcsolatot teremtett velünk."
+
+#: templates/contact/message_sent.html:6
+msgid "Vaša poruka je uspešno poslata."
+msgstr "Maga üzenete sikeresen van kézbesítve."
+
+#: templates/contact/message_sent.html:7
+msgid "Ako ste u poruci tražili, uskoro ćemo Vas kontaktirati."
+msgstr "Ha az üzenetben kért tőlünk választ, hamarosan válaszólunk."

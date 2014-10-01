@@ -1,0 +1,48 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %} <html>
+<head lang="{{ LANGUAGE_CODE }}">
+<meta charset="utf-8">
+<title>{% trans "Golgota Hrišćanska Zajednica - Subotica" %}</title>
+<link rel="shortcut icon" href="{% static "images/favicon.gif" %}" />
+<link rel="stylesheet" type="text/css" href="{% static "links/css/style.css" %}" />
+</head>
+<body>
+    <!--
+    <div id="language_chooser">
+        <form action="{% url 'set_language' %}" method="post">
+        {% csrf_token %}
+        <input name="next" type="hidden" value="{{ request.get_full_path|slice:'3:' }}" />
+        <select name="language">
+            {% get_language_info_list for LANGUAGES as languages %}
+            {% for language in languages %}
+                <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>
+                {{ language.name_local }} ({{ language.code }})
+                </option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Change" />
+        </form>
+    </div>-->
+
+    <div id="image slider"></div>
+
+    <div id="divlogo"><img src="{% static "images/logo.png" %}" alt="logo-golgota" /></i></div>
+
+    <h1>{% trans "Stranica sa korisnim linkovima" %}</h1>
+
+    <div id="linksdiv">
+        {{ all_links.name }}
+    {% for link in all_links %}
+        <p align="left"><strong><a href="{{ link.link }}" target="_blank">{{ link.name }}</a></strong></p>
+    {% endfor %}
+    </div>
+
+    <a href="{% url 'home:index' %}">{% trans "Početna" %}</a>
+
+</body>
+</html>
+

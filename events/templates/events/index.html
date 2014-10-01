@@ -1,0 +1,32 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<h1>{% trans "Događaji" %}</h1>
+
+<table>
+{% for event in all_events %}
+
+<tr>
+    {% if request.LANGUAGE_CODE == 'sr-latn' %}
+        <td>{{ event.type.type_sr }}: </td>
+        <td><a href="{% url "events:detail" event.id %}">{{ event.title_sr }}</a></td>
+        <td>{{ event.event_start_date }}{% if event.event_end_date %} - {{ event.event_end_date }}{% endif %}</td>
+        <td>{{ event.event_happen_in_time }}</td>
+    {% elif request.LANGUAGE_CODE == 'hu' %}
+        <td>{{ event.type.type_hu }}: </td>
+        <td><a href="{% url "events:detail" event.id %}">{{ event.title_hu }}</a></td>
+        <td>{{ event.event_start_date }}{% if event.event_end_date %} - {{ event.event_end_date }}{% endif %}</td>
+        <td>{{ event.event_happen_in_time }}</td>
+    {% elif request.LANGUAGE_CODE == 'en' %}
+        <td>{{ event.type.type_en }}: </td>
+        <td><a href="{% url "events:detail" event.id %}">{{ event.title_en }}</a></td>
+        <td>{{ event.event_start_date }}{% if event.event_end_date %} - {{ event.event_end_date }}{% endif %}</td>
+        <td>{{ event.event_happen_in_time }}</td>
+    {% endif %}
+</tr>
+
+{% endfor %}
+</table>
+
+<br />
+<a href="{% url 'home:index' %}">{% trans "Početna" %}</a>

@@ -1,0 +1,21 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static "contact/css/style.css" %}" />
+
+<h1>{% trans "Kontakt" %}</h1>
+
+{% block contact_form %}
+<form action="{% url 'contact:index' %}" method="POST" />{% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit" />
+    <p>{% trans "Molimo Vaše razumevanje jer moramo proveriti da niste automatizovan proces." %}</p>
+</form>
+{% endblock %}
+
+<a href="{% url 'home:index' %}">{% trans "Početna" %}</a>
+
+<h1>{% trans 'Gde se nalazimo' %}</h1>
+
+<iframe width="600" height="450" frameborder="0" styte="border:0px" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD2xGBwJlIkdizjG09T7SL6H2HpbsXiXCg&q=Serbia+Subotica+Mirka+Bogovica+Calvary+Chapel">
+</iframe>

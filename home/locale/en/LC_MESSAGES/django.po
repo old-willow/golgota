@@ -1,0 +1,537 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-30 09:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.py:60
+msgid "Introduction"
+msgstr ""
+
+#: admin.py:61
+msgid "Statement"
+msgstr ""
+
+#: admin.py:62
+msgid "Services"
+msgstr ""
+
+#: forms.py:22
+msgid "Title"
+msgstr "Title"
+
+#: forms.py:49
+#, python-format
+msgid "Please keep filesize under %(bytes)s. Current filesize is %(currsize)s"
+msgstr "Please keep filesize under %(bytes)s. Current filesize is %(currsize)s"
+
+#: forms.py:52
+msgid "Only 'jpg', 'gif' and 'png' image files allowed!"
+msgstr "Only 'jpg', 'gif' and 'png' image files allowed!"
+
+#: forms.py:55
+msgid "File type not supported."
+msgstr "File type not supported."
+
+#: models.py:15
+msgid "Pastor"
+msgstr "Pastor"
+
+#: models.py:16
+msgid "Učitelj"
+msgstr "Teacher"
+
+#: models.py:17
+msgid "Đakon"
+msgstr "Deakon"
+
+#: models.py:18
+msgid "Vođa slavljenja"
+msgstr "Worship Leader"
+
+#: models.py:19
+msgid "Član tima za slavljenje"
+msgstr "Worship team member"
+
+#: models.py:20
+msgid "Pomoćnik"
+msgstr "Common Helper"
+
+#: models.py:21
+msgid "Volunter"
+msgstr "Volunteer"
+
+#: models.py:22
+msgid "Prevodilac"
+msgstr "Translator"
+
+#: models.py:23
+msgid "Gost"
+msgstr "Gest"
+
+#: models.py:29
+msgid "rank on serbian"
+msgstr ""
+
+#: models.py:31
+msgid "rank on hungarian"
+msgstr ""
+
+#: models.py:33
+msgid "rank on english"
+msgstr ""
+
+#: models.py:38
+msgid "staff rank"
+msgstr ""
+
+#: models.py:39
+msgid "staff ranks"
+msgstr ""
+
+#: models.py:48
+msgid "first name"
+msgstr "first name"
+
+#: models.py:49
+msgid "last name"
+msgstr "last name"
+
+#: models.py:50
+msgid "nickname"
+msgstr "nickname"
+
+#: models.py:55
+msgid "staff portrait image"
+msgstr "staff portrait image"
+
+#: models.py:57
+msgid "Only 'jpg', 'gif'  and 'png' image files allowed under 2.5 MB size!"
+msgstr "Only 'jpg', 'gif'  and 'png' image files allowed under 2.5 MB size!"
+
+#: models.py:59
+msgid "is image publishable?"
+msgstr "is image publishable?"
+
+#: models.py:63
+msgid "is email publishable?"
+msgstr "is email publishable?"
+
+#: models.py:66
+msgid "web page"
+msgstr "web page"
+
+#: models.py:68
+msgid "is web page publishable?"
+msgstr "is web page publishable?"
+
+#: models.py:71
+msgid "facebook profile page"
+msgstr "facebook profile page"
+
+#: models.py:73
+msgid "is facebook web page publishable?"
+msgstr "is facebook web page publishable?"
+
+#: models.py:76
+msgid "mobile phone"
+msgstr "mobile phone"
+
+#: models.py:78
+msgid "is mobile phone number publishable?"
+msgstr "is mobile phone number publishable?"
+
+#: models.py:81
+msgid "phone"
+msgstr "phone"
+
+#: models.py:82
+msgid "is phone number publishable?"
+msgstr "is phone number publishable?"
+
+#: models.py:85
+msgid "title"
+msgstr "title"
+
+#: models.py:87
+msgid "about me"
+msgstr "about me"
+
+#: models.py:89
+msgid "date registered"
+msgstr "date registered"
+
+#: models.py:94
+msgid "staff"
+msgstr "staff"
+
+#: models.py:95
+msgid "staffs"
+msgstr "staffs"
+
+#: models.py:100 models.py:257
+msgid "Get me a title of staff."
+msgstr ""
+
+#: models.py:114
+msgid "Ponedeljak"
+msgstr "Monday"
+
+#: models.py:115
+msgid "Utorak"
+msgstr "Thuesday"
+
+#: models.py:116
+msgid "Sreda"
+msgstr "Wednesday"
+
+#: models.py:117
+msgid "Četvrtak"
+msgstr "Thursday"
+
+#: models.py:118
+msgid "Petak"
+msgstr "Friday"
+
+#: models.py:119
+msgid "Subota"
+msgstr "Saturday"
+
+#: models.py:120
+msgid "Nedelja"
+msgstr "Sunday"
+
+#: models.py:134
+msgid "Nema sastanka"
+msgstr "No meeting"
+
+#: models.py:135
+msgid "Biblijski čas"
+msgstr "Bible stydy"
+
+#: models.py:136
+msgid "Molitveni čas"
+msgstr "Prayer meeting"
+
+#: models.py:137
+msgid "Slavljenje"
+msgstr "Worshiping"
+
+#: models.py:138
+msgid "Muški čas"
+msgstr "Men meetnig"
+
+#: models.py:139
+msgid "Ženski čas"
+msgstr "Women meeting"
+
+#: models.py:140
+msgid "Kučno zajedništvo"
+msgstr "Home meeting"
+
+#: models.py:153
+msgid "meeting name on serbian"
+msgstr ""
+
+#: models.py:156
+msgid "meeting name on hungarian"
+msgstr ""
+
+#: models.py:159
+msgid "meeting name on english"
+msgstr ""
+
+#: models.py:165
+msgid "meeting type"
+msgstr ""
+
+#: models.py:166
+msgid "meeting types"
+msgstr "meeting date"
+
+#: models.py:181
+msgid "day on serbian"
+msgstr ""
+
+#: models.py:183
+msgid "day on hungarian"
+msgstr ""
+
+#: models.py:185
+msgid "day on english"
+msgstr ""
+
+#: models.py:187
+msgid "is regular meeting day?"
+msgstr ""
+
+#: models.py:191
+msgid "week day"
+msgstr ""
+
+#: models.py:192
+msgid "week days"
+msgstr ""
+
+#: models.py:210
+msgid "meeting day"
+msgstr ""
+
+#: models.py:211
+msgid "meeting date"
+msgstr ""
+
+#: models.py:212
+msgid "hour of meeting"
+msgstr ""
+
+#: models.py:214
+msgid "meeting category"
+msgstr ""
+
+#: models.py:219
+msgid "meeting leader"
+msgstr ""
+
+#: models.py:221
+msgid "is meeting leader publishable?"
+msgstr ""
+
+#: models.py:223
+msgid "is weekly meeting?"
+msgstr ""
+
+#: models.py:228
+msgid "regular meeting"
+msgstr ""
+
+#: models.py:229
+msgid "regular meetings"
+msgstr ""
+
+#: models.py:244
+msgid "Return me a day."
+msgstr ""
+
+#: models.py:248
+msgid "is this a weekly meeting?"
+msgstr ""
+
+#: models.py:277
+msgid "introduction on english"
+msgstr ""
+
+#: models.py:278
+msgid "introduction on serbian"
+msgstr ""
+
+#: models.py:279
+msgid "introduction on hungarian"
+msgstr ""
+
+#: models.py:282
+msgid "statement on english"
+msgstr ""
+
+#: models.py:283
+msgid "statement on serbian"
+msgstr ""
+
+#: models.py:284
+msgid "statement on hungarian"
+msgstr ""
+
+#: models.py:287
+msgid "services on english"
+msgstr ""
+
+#: models.py:288
+msgid "services on serbian"
+msgstr ""
+
+#: models.py:289
+msgid "services on hungarian"
+msgstr ""
+
+#: models.py:296
+msgid "home page content"
+msgstr ""
+
+#: models.py:297
+msgid "home page contents"
+msgstr ""
+
+#: templates/home/detail-staff.html:11
+msgid "Golgota - Detalji osoblja"
+msgstr "Golgotha - Staff Details"
+
+#: templates/home/detail-staff.html:17
+msgid "Detalji osoblja"
+msgstr "Staff Details"
+
+#: templates/home/detail-staff.html:27
+msgid "O meni:"
+msgstr "About me:"
+
+#: templates/home/index.html:9
+msgid "Golgota Hrišćanska Zajednica - Subotica"
+msgstr "Calvary Chapel of Subotica"
+
+#: templates/home/index.html:36
+msgid "Početna"
+msgstr "Home"
+
+#: templates/home/index.html:37 templates/home/index.html.py:111
+msgid "Događaji"
+msgstr "Events"
+
+#: templates/home/index.html:38
+msgid "Galerija"
+msgstr "Gallery"
+
+#: templates/home/index.html:39
+msgid "Media"
+msgstr "Media"
+
+#: templates/home/index.html:40
+msgid "Kontakt"
+msgstr "Contact"
+
+#: templates/home/index.html:41
+msgid "Linkovi"
+msgstr "Links"
+
+#. Translators: html Introduction part
+#: templates/home/index.html:46
+msgid ""
+"Mi smo kao što nam to i ime govori, Hrišćanska Crkva. Verujemo da Biblija "
+"nije samo obična knjiga koju je lepo imati na svojoj polici pored drugih "
+"velikih i poznatih dela. Bibliju su pisali obični ljudi ali su bili "
+"inspirisani Božijim Duhom. Prosto rečeno - Bog im je diktirao šta da pišu i "
+"zato verujemo da je ona Božija reč! Ni jedno pisano poznato delo nije ni "
+"približno Bibliji."
+msgstr ""
+"We are a Christian Church located in Subotica, Serbia. We believe that the "
+"Bible is not just an ordinary book, nice to have on your shelf next to other "
+"large and well-known works. Bible was written by ordinary people inspired by "
+"God. None known written works in the world could be compared with the Bible. "
+"Calvary is based on biblical principals and we do not change the Word but It "
+"changes us.  We do not belong to any denomination. As it was 2000 years ago "
+"when Jesus came. Those who followed Jesus did not have any special name, "
+"special suit and were not part of a denomination. At that time denomination "
+"didn't even exist. They simply believed in Jesus and followed Him. Our goal "
+"is to follow Jesus and to see His glory day to day. Thank you for stoping by "
+"our web page and may the Lord bless you."
+
+#: templates/home/index.html:47
+msgid ""
+"Ne pripadamo ni jednoj denominaciji! Kao što je bilo pre 2000 godina kada je "
+"Isus došao. Oni koji su sledili Isusa nisu imali nikakvo posebno ime, "
+"posebno odelo niti su bili deo neke denominacije pošto tada one nisu ni "
+"postojale! Prvi vernici su jednostavno verovali u Isusa i sledili ga."
+msgstr ""
+"We don't belong to any denomination. It is the same as it was 2000 years ago "
+"when Jesus came. Anyone who followed Jesus didn't have any particular name "
+"neither suit. First belivers where only belinving in Jesus and they followed "
+"Him."
+
+#: templates/home/index.html:48
+msgid "Forma Bogosluženja"
+msgstr "Services"
+
+#: templates/home/index.html:49
+msgid ""
+"Imamo par Biblijskih časova tokom nedelje. Tada zajedno slavimo Boga kroz "
+"pesme koje Njemu upućujemo. Nakon toga proučavamo Bibliju u vidu "
+"predavanja.  Pastor sa propovedaonice predaje. Bibliju proučavamo celu i ne "
+"naglašavamo ni jedan deo kao važniji od drugog. Sve je jednako važno!"
+msgstr ""
+"We have few Bible studies trough a week. We then worship God with songs. "
+"After that we read and study the Bible with meeting leader as he teach by "
+"preaching. We study the Bible in whole, because we believe that everything is "
+"it is equally important!"
+
+#: templates/home/index.html:50
+msgid "Program:"
+msgstr "Schedule:"
+
+#: templates/home/index.html:51
+msgid "Nedeljni sastanci"
+msgstr "Weekly Meetings"
+
+#: templates/home/index.html:59 templates/home/index.html.py:89
+msgid "Dan"
+msgstr "Day"
+
+#: templates/home/index.html:60 templates/home/index.html.py:90
+msgid "Datum"
+msgstr "Date"
+
+#: templates/home/index.html:61 templates/home/index.html.py:91
+msgid "Vreme"
+msgstr "Time"
+
+#: templates/home/index.html:62 templates/home/index.html.py:92
+msgid "Vrsta sastanka"
+msgstr "Meeting Type"
+
+#: templates/home/index.html:63 templates/home/index.html.py:93
+msgid "Vođa sastanka"
+msgstr "Meeting Leader"
+
+#: templates/home/index.html:81
+msgid "Ostali sastanci"
+msgstr "Other Meetings"
+
+#: templates/home/index.html:114
+msgid "Vrsta"
+msgstr "Type"
+
+#: templates/home/index.html:115
+msgid "Događaj"
+msgstr "Events"
+
+#: templates/home/index.html:118
+msgid "Početak"
+msgstr "Starts"
+
+#: templates/home/index.html:119
+msgid "Kraj"
+msgstr "Ends"
+
+#: templates/home/index.html:120
+msgid "Kada se održava?"
+msgstr "When is taking place?"
+
+#. Translators: html Statement
+#: templates/home/index.html:175
+msgid "Verujemo (Izjava vere)"
+msgstr "Our Satament of Faith"
+
+#: templates/home/index.html:176
+msgid ""
+"Da je Isus Hrist jedini Put, Istina i Život i da niko ne može doći do Boga "
+"samo kroz veru u Isusa Hrista. Svi smo grešni i ne postoji niko ko za sebe "
+"može reći da je pravedan i čist pred Njim, a ako to tvrdi onda laže samog "
+"sebe! Naš greh nas razdvaja od Boga i vodi u pakao! Jedini spas je Isus! Ko "
+"god veruje u Njega biće spašen od pakla."
+msgstr ""
+"Jesus Christ is the only way, the truth and the life and no one can come to "
+"God except trough believing in Jesus Christ. Everybody sinned and there "
+"is no person who can tell that he is righteous before Him. Our sin is holding as "
+"separated from God and lead as to hell. The only possible rescue is to "
+"believe in Jesus and then the one can be saved from hell."
+

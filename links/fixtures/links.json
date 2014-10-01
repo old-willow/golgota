@@ -1,0 +1,172 @@
+[
+{
+    "pk": 1, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:55:45Z", 
+        "link": "http://www.ccbce.com/", 
+        "name": "Biblijski Koled\u017e u Vajti", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 2, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:56:17Z", 
+        "link": "http://ccbce.com/index.php?option=com_content&view=article&id=19&Itemid=15", 
+        "name": "Conference center", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 3, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:56:49Z", 
+        "link": "http://www.ccmtp.com/", 
+        "name": "Missions training program", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 4, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:57:11Z", 
+        "link": "http://www.golgotabudapest.hu/", 
+        "name": "Golgota Budapest", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 5, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:57:32Z", 
+        "link": "http://www.golgotaszeged.hu/", 
+        "name": "Golgota Szeged", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 6, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:57:51Z", 
+        "link": "http://gospel.golgota.hu/", 
+        "name": "Golgota Gospel Hor", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 7, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:58:10Z", 
+        "link": "http://www.golgota.rs/", 
+        "name": "Golgota Backa Topola", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 8, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:58:30Z", 
+        "link": "http://www.eus.rs/", 
+        "name": "Evandjeosko udruzenje studenata", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 9, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:58:47Z", 
+        "link": "http://calvarylagunacreek.com/", 
+        "name": "Calvary Chapel Laguna Creek", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 10, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:59:05Z", 
+        "link": "http://www.calvarychapel.com/", 
+        "name": "Calvary Chapel home page", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 11, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T12:59:48Z", 
+        "link": "http://www.calvarychapelcostamesa.com/", 
+        "name": "Calvary Chapel Costa Mesa", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 12, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T13:00:08Z", 
+        "link": "http://www.cctreviso.com/", 
+        "name": "Calvary Chapel Taviso Itali", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 13, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T13:00:26Z", 
+        "link": "http://www.ccofsplit.com/", 
+        "name": "Golgota Split", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 14, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T13:01:26Z", 
+        "link": "http://calvarychapelcakovec.com/", 
+        "name": "Golgota Cakovac", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 15, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T13:01:44Z", 
+        "link": "http://www.kalvarija.si/", 
+        "name": "Golgota Celje", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 16, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T13:02:38Z", 
+        "link": "http://calvarychapel.com/index.php", 
+        "name": "Internacionalna lista crkvi", 
+        "date_modified": null
+    }
+},
+{
+    "pk": 17, 
+    "model": "links.linkcollections", 
+    "fields": {
+        "date_created": "2014-04-14T13:03:05Z", 
+        "link": "http://calvarychapel.com/index.php?option=com_content&view=article&id=5&Itemid=69&filter=domestic", 
+        "name": "posebna lista crkvi u U.S.", 
+        "date_modified": null
+    }
+}
+]

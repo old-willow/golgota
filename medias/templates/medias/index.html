@@ -1,0 +1,24 @@
+{% extends "medias/base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+
+{% block title %}{% trans "Medija" %}{% endblock %}
+
+{% block home_media %}
+<h1>{% trans "Medija" %}</h1>
+
+    <p>{% trans "Svake nedelje u 18:00 časova možete slušati uživo stream našeg bogosluženja." %}</p>
+    <!--<p>Every Sunday at 6:00 PM, You can listen live stream of our service from Church.</p>-->
+
+    <a href="#" onClick="MM_openBrWindow('http://www.golgota.org.rs/stream.html', '[Live] Biblijski \u010das', 'width=400,height=320');">{% trans "Klikni za biblijski čas" %}</a>
+    <br />
+    <a href="#" onClick="MM_openBrWindow('http://www.golgota.org.rs/video2.html', 'koncert', 'width=400,height=400');">{% trans "Pogledaj koncert u Gradskoj kući u Subotici" %}</a>
+    <br />
+    <a href="https://www.youtube.com/watch?v=VAH8suospuc" target="_blank"><img src="{% static "medias/images/video.jpg" %}" alt="video_icon" width="390" height="280" /><a/>
+    <br />
+    <br />
+    <a href="{% url 'medias:archive-list' %}">{% trans "Arhiva medije" %}</a>
+    <br />
+    <br />
+    <a href="{% url 'home:index' %}">{% trans "Početna" %}</a>
+{% endblock %}

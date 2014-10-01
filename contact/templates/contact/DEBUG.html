@@ -1,0 +1,16 @@
+<h2>[DEBUG] Page for "{{ table_name }}" table</h2>
+
+<h4>Listing Data from table:</h4>
+
+<div id="DEBUG_div">
+    <ul>
+    {% for item in contacts %}
+    <li style="background-color: darkgrey;">{{ item.subject }} | <strong>{{ item.name }}</strong> | {{ item.date_submited }}</li>
+    <p><strong>email:</strong> {{ item.email }}</p>
+    <p>{% if item.web_site %}{{ item.web_site }}{% endif %}</p>
+    <p><strong>message:</strong> {{ item.message }}</p>
+    {% endfor %}
+    </ul>
+</div>
+<a href="{% url 'home:index' %}">Home</a> | 
+<a href="{% url 'contact:index' %}">Contact</a>

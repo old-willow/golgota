@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-29 13:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: admin.py:24
+msgid "Basics"
+msgstr "Osnove"
+
+#: admin.py:27
+msgid "Dates"
+msgstr "Datumi"
+
+#: admin.py:29
+msgid "Descriptions"
+msgstr "Opisi"
+
+#: models.py:14
+msgid "country on serbian"
+msgstr "država na srpskom"
+
+#: models.py:15
+msgid "country on hungarian"
+msgstr "država na mađarskom"
+
+#: models.py:16
+msgid "country on english"
+msgstr "država na engleskom"
+
+#: models.py:17
+msgid "city on serbian"
+msgstr "grad na srpskom"
+
+#: models.py:18
+msgid "city on hungarian"
+msgstr "grad na mađarskom"
+
+#: models.py:19
+msgid "city on english"
+msgstr "grad na engleskom"
+
+#: models.py:21 models.py:23 models.py:25
+msgid "The name of the actual location where event will take place"
+msgstr "Ime mesta gde se događaj odvija"
+
+#: models.py:26
+msgid "postal code"
+msgstr "poštanski broj"
+
+#: models.py:27
+msgid "address"
+msgstr "adresa"
+
+#: models.py:30
+msgid "is this a church?"
+msgstr "da li je to crkva?"
+
+#: models.py:31 models.py:45
+msgid "is publishable?"
+msgstr "da li je za publikaciju?"
+
+#: models.py:35
+msgid "location"
+msgstr "lokacija"
+
+#: models.py:36
+msgid "locations"
+msgstr "lokacije"
+
+#: models.py:43
+msgid "church name"
+msgstr "ime crkve"
+
+#: models.py:44 models.py:49 models.py:77
+msgid "host church"
+msgstr "crkva domaćin"
+
+#: models.py:50
+msgid "host churches"
+msgstr "crkve domaćini"
+
+#: models.py:57
+msgid "event on serbian"
+msgstr "događaj na srpskom"
+
+#: models.py:58
+msgid "event on hungarian"
+msgstr "događaj na mađarskom"
+
+#: models.py:59
+msgid "event on english"
+msgstr "događaj na engleskom"
+
+#: models.py:62
+msgid "event type"
+msgstr "tip događaja"
+
+#: models.py:63
+msgid "event types"
+msgstr "tipovi događaja"
+
+#: models.py:71
+msgid "title on serbian"
+msgstr "naslov na srpskom"
+
+#: models.py:72
+msgid "title on hungarian"
+msgstr "naslov na mađarskom"
+
+#: models.py:73
+msgid "title on english"
+msgstr "naslov na engleskom"
+
+#: models.py:74
+msgid "type of event"
+msgstr "vrsta događaja"
+
+#: models.py:75
+msgid "host person"
+msgstr "domaćin"
+
+#: models.py:78
+msgid "event created"
+msgstr "događaj je kreiran"
+
+#: models.py:81
+msgid "date when event starts"
+msgstr "datum kada događaj počinje"
+
+#: models.py:83
+msgid "date when event ends"
+msgstr "datum kada se događaj završava"
+
+#: models.py:87
+msgid "short description on serbian"
+msgstr "kratak opis na srpskom"
+
+#: models.py:89
+msgid "short description on hungarian"
+msgstr "kratak opis na mađarskom"
+
+#: models.py:91
+msgid "short description on english"
+msgstr "kratak opis na engleskom"
+
+#: models.py:93
+msgid "longer description on serbian"
+msgstr "duži opis na srpskom"
+
+#: models.py:94
+msgid "longer description on hungarian"
+msgstr "duži opis na mađarskom"
+
+#: models.py:95
+msgid "longer description on english"
+msgstr "duži opis na engleskom"
+
+#: models.py:96
+msgid "is event publishable?"
+msgstr "da li je događaj za publikaciju?"
+
+#: models.py:102
+msgid "event"
+msgstr "događaj"
+
+#: models.py:103
+msgid "events"
+msgstr "događaji"
+
+#: models.py:136
+msgid "passed event"
+msgstr "događaj je završen"
+
+#: models.py:140
+msgid "event currently takes place"
+msgstr "se trenutno odvija"
+
+#: models.py:144
+msgid "future event"
+msgstr "budući događaj"
+
+#: models.py:145
+msgid "event happen in time"
+msgstr "da li je događaj aktuelan?"
+
+#: models.py:154
+msgid "meeting day"
+msgstr "dan sastanka"
+
+#: models.py:155
+msgid "meeting days"
+msgstr "dani sastanka"
+
+#: models.py:170
+msgid "meeting"
+msgstr "sastanak"
+
+#: models.py:171
+msgid "meetings"
+msgstr "sastanci"
+
+#: templates/events/event-detail.html:60
+msgid "Događaji početna"
+msgstr ""
+
+#: templates/events/event-detail.html:62 templates/events/index.html:30
+msgid "Početna"
+msgstr ""
+
+#: templates/events/index.html:4
+msgid "Događaji"
+msgstr ""

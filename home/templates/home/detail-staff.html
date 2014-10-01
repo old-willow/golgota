@@ -1,0 +1,33 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+{% comment %}{% load i18n %}{% endcomment %}
+{% load staticfiles %}
+<html>
+
+<head>
+<title>{% trans "Golgota - Detalji osoblja" %}</title>
+    <link rel="shortcut icon" href="{% static "images/favicon.gif" %}" />
+    <link rel="stylesheet" type="text/css" href="{% static "home/css/style.css" %}" />
+</head>
+
+<body>
+<h1>{% trans "Detalji osoblja"  %}</h1>
+    {% if staff.image %}
+    <p><img src="{{ staff.image.url }}" alt="{{ staff.last_name }}" /></p>
+    {% endif %}
+
+    <p>Name: {{ staff.first_name }} {{ staff.last_name }}</p>
+    <p>Email: {{ staff.email }}</p>
+    {% for title in staff.title.all %}
+        <p>{{ title }}</p>
+    {% endfor %}
+    <p>{% trans "O meni:" %}</p>
+    <p>{{ staff.about_me }}</p>
+    <br />
+    <br />
+    <a href="{% url 'home:index' %}">Home</a>
+</body>
+
+</html>

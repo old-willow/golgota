@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-30 22:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: admin.py:16
+msgid "Image name"
+msgstr "Ime fotografije"
+
+#: admin.py:17
+msgid "Image description"
+msgstr "Opis fotografije"
+
+#: admin.py:23 admin.py:39
+msgid "Other settings"
+msgstr "Ostala podešavanja"
+
+#: admin.py:34
+msgid "Image title"
+msgstr "Naslov fotografije"
+
+#: admin.py:35
+msgid "File"
+msgstr ""
+
+#: admin.py:36
+msgid "Description"
+msgstr "Opis"
+
+#: admin.py:40
+msgid "Date"
+msgstr "Datum"
+
+#: forms.py:40
+#, python-format
+msgid "Please keep filesize under %(bytes)s. Current filesize is %(currsize)s"
+msgstr ""
+"Samo file-ovi ispod %(bytes)s. Veličina aktuelnog filea je %(currsize)s"
+
+#: forms.py:43
+msgid "Only 'jpg', 'gif' and 'png' image files allowed!"
+msgstr "Samo file-ovi u formatu 'jpg', 'gif' and 'png' su dozvoljeni!"
+
+#: forms.py:46
+msgid "File type not supported."
+msgstr "Tip file nije podržan."
+
+#: models.py:12
+msgid "gallery name on serbian"
+msgstr "naslov galerije na srpskom"
+
+#: models.py:13
+msgid "gallery name on hungarian"
+msgstr "naslov galerije na mađarskom"
+
+#: models.py:14
+msgid "gallery name on english"
+msgstr "naslov galerije na engleskom"
+
+#: models.py:15
+msgid "date when gallery created"
+msgstr "datum kada je galerija stvorena"
+
+#: models.py:17 models.py:70
+msgid "short description on serbian"
+msgstr "kratak opis na srpskom"
+
+#: models.py:19 models.py:22 models.py:25
+msgid "shortly describe gallery"
+msgstr "ukratko opiši galeriju"
+
+#: models.py:20 models.py:72
+msgid "short description on hungarian"
+msgstr "kratak opis na mađarskom"
+
+#: models.py:23 models.py:74
+msgid "short description on english"
+msgstr "kratak opis na engleskom"
+
+#: models.py:26
+msgid "gallery's longer description on serbian"
+msgstr "duži opis galerije na srpskom"
+
+#: models.py:29 models.py:33 models.py:37
+msgid "describe gallery"
+msgstr "opiši galeriju"
+
+#: models.py:30
+msgid "gallery's longer description on hungarian"
+msgstr "duži opis galerije na mađarskom"
+
+#: models.py:34
+msgid "gallery's longer description on english"
+msgstr "duži opis galerije na engleskom"
+
+#: models.py:38
+msgid "choose event"
+msgstr "Odaberi događaj"
+
+#: models.py:41
+msgid "is gallery publishable?"
+msgstr "da li je galerija za publikaciju?"
+
+#: models.py:45 models.py:62
+msgid "gallery"
+msgstr "galerija"
+
+#: models.py:46
+msgid "galleries"
+msgstr "galerije"
+
+#: models.py:58
+msgid "image title on serbian"
+msgstr "naslov fotografije na srpskom"
+
+#: models.py:59
+msgid "image title on hungarian"
+msgstr "naslov fotografije na mađarskom"
+
+#: models.py:60
+msgid "image title on english"
+msgstr "naslov fotografije na engleskom"
+
+#: models.py:63
+msgid "choose gallery"
+msgstr "odaberi galeriju"
+
+#: models.py:64
+msgid "date uploaded"
+msgstr "datum uploadovanja"
+
+#: models.py:65
+msgid "image to be uploaded"
+msgstr "fotografija koja treba da se upload-uje"
+
+#: models.py:67
+msgid "is image publishable?"
+msgstr "da li je fotografija za publikaciju?"
+
+#: models.py:71 models.py:73 models.py:75
+msgid "shortly describe image"
+msgstr "ukratko opiši fotografiju"
+
+#: models.py:77
+msgid "image"
+msgstr "fotografija"
+
+#: models.py:78
+msgid "images"
+msgstr "fotografije"
+
+#: templates/gallery/images-in-gallery.html:19
+#: templates/gallery/images-in-gallery.html:37
+msgid "Ova galerija još ne sadrži slike."
+msgstr ""
+
+#: templates/gallery/images-in-gallery.html:70
+msgid "Lista galerija"
+msgstr ""
+
+#: templates/gallery/images-in-gallery.html:72 templates/gallery/index.html:16
+msgid "Početna"
+msgstr ""
+
+#: templates/gallery/index.html:4
+msgid "Početna stranica galerija"
+msgstr ""
+

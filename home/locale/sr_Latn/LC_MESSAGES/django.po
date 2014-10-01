@@ -1,0 +1,518 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-30 09:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: admin.py:60
+msgid "Introduction"
+msgstr "pretstavljanje"
+
+#: admin.py:61
+msgid "Statement"
+msgstr "Izjava"
+
+#: admin.py:62
+msgid "Services"
+msgstr "Služba"
+
+#: forms.py:22
+msgid "Title"
+msgstr "Naslov"
+
+#: forms.py:49
+#, python-format
+msgid "Please keep filesize under %(bytes)s. Current filesize is %(currsize)s"
+msgstr ""
+"Molim, da veličina file-a bude manja od %(bytes)s. Trenutna veličina file-a "
+"je %(currsize)s"
+
+#: forms.py:52
+msgid "Only 'jpg', 'gif' and 'png' image files allowed!"
+msgstr "Samo 'jpg', 'gif' i 'png' file-ovi su dozvoljeni!"
+
+#: forms.py:55
+msgid "File type not supported."
+msgstr "Tip file-a nije podržan."
+
+#: models.py:15
+msgid "Pastor"
+msgstr ""
+
+#: models.py:16
+msgid "Učitelj"
+msgstr ""
+
+#: models.py:17
+msgid "Đakon"
+msgstr ""
+
+#: models.py:18
+msgid "Vođa slavljenja"
+msgstr ""
+
+#: models.py:19
+msgid "Član tima za slavljenje"
+msgstr ""
+
+#: models.py:20
+msgid "Pomoćnik"
+msgstr ""
+
+#: models.py:21
+msgid "Volunter"
+msgstr ""
+
+#: models.py:22
+msgid "Prevodilac"
+msgstr ""
+
+#: models.py:23
+msgid "Gost"
+msgstr ""
+
+#: models.py:29
+msgid "rank on serbian"
+msgstr "rang na srpskom"
+
+#: models.py:31
+msgid "rank on hungarian"
+msgstr "rang na mađarskom"
+
+#: models.py:33
+msgid "rank on english"
+msgstr "rang na engleskom"
+
+#: models.py:38
+msgid "staff rank"
+msgstr "rang osobe"
+
+#: models.py:39
+msgid "staff ranks"
+msgstr "rang osoblja"
+
+#: models.py:48
+msgid "first name"
+msgstr "prezime"
+
+#: models.py:49
+msgid "last name"
+msgstr "ime"
+
+#: models.py:50
+msgid "nickname"
+msgstr "nadimak"
+
+#: models.py:55
+msgid "staff portrait image"
+msgstr "portret osoblja"
+
+#: models.py:57
+msgid "Only 'jpg', 'gif'  and 'png' image files allowed under 2.5 MB size!"
+msgstr ""
+"Samo 'jpg', 'gif' i 'png' file-ovi su dozvoljeni ispod 2.5 MB veličine!"
+
+#: models.py:59
+msgid "is image publishable?"
+msgstr "da li je slika dostupna za javnost?"
+
+#: models.py:63
+msgid "is email publishable?"
+msgstr "da li je email dostupan za javnost?"
+
+#: models.py:66
+msgid "web page"
+msgstr "web stranica"
+
+#: models.py:68
+msgid "is web page publishable?"
+msgstr "da li je web stranica dostupna za javnost?"
+
+#: models.py:71
+msgid "facebook profile page"
+msgstr "stranica facebook profila"
+
+#: models.py:73
+msgid "is facebook web page publishable?"
+msgstr "da li je facebook stranica dostupna za javnost?"
+
+#: models.py:76
+msgid "mobile phone"
+msgstr "mobilni telefon"
+
+#: models.py:78
+msgid "is mobile phone number publishable?"
+msgstr "da li je mobilni telefon dostupan za javnost?"
+
+#: models.py:81
+msgid "phone"
+msgstr "telefon"
+
+#: models.py:82
+msgid "is phone number publishable?"
+msgstr "da li je telefon dostupan za javnost?"
+
+#: models.py:85
+msgid "title"
+msgstr "naslov"
+
+#: models.py:87
+msgid "about me"
+msgstr "o meni"
+
+#: models.py:89
+msgid "date registered"
+msgstr "datum registracije"
+
+#: models.py:94
+msgid "staff"
+msgstr "osoblje"
+
+#: models.py:95
+msgid "staffs"
+msgstr "osoblje"
+
+#: models.py:100 models.py:257
+msgid "Get me a title of staff."
+msgstr "Molim rang osoblja."
+
+#: models.py:114
+msgid "Ponedeljak"
+msgstr ""
+
+#: models.py:115
+msgid "Utorak"
+msgstr ""
+
+#: models.py:116
+msgid "Sreda"
+msgstr ""
+
+#: models.py:117
+msgid "Četvrtak"
+msgstr ""
+
+#: models.py:118
+msgid "Petak"
+msgstr ""
+
+#: models.py:119
+msgid "Subota"
+msgstr ""
+
+#: models.py:120
+msgid "Nedelja"
+msgstr ""
+
+#: models.py:134
+msgid "Nema sastanka"
+msgstr ""
+
+#: models.py:135
+msgid "Biblijski čas"
+msgstr ""
+
+#: models.py:136
+msgid "Molitveni čas"
+msgstr ""
+
+#: models.py:137
+msgid "Slavljenje"
+msgstr ""
+
+#: models.py:138
+msgid "Muški čas"
+msgstr ""
+
+#: models.py:139
+msgid "Ženski čas"
+msgstr ""
+
+#: models.py:140
+msgid "Kučno zajedništvo"
+msgstr ""
+
+#: models.py:153
+msgid "meeting name on serbian"
+msgstr "ime sastanka na srpskom"
+
+#: models.py:156
+msgid "meeting name on hungarian"
+msgstr "ime sastanka na mađarskom"
+
+#: models.py:159
+msgid "meeting name on english"
+msgstr "ime sastanka na engleskom"
+
+#: models.py:165
+msgid "meeting type"
+msgstr "tip sastanka"
+
+#: models.py:166
+msgid "meeting types"
+msgstr "tipovi sastanka"
+
+#: models.py:181
+msgid "day on serbian"
+msgstr "dan na srpskom"
+
+#: models.py:183
+msgid "day on hungarian"
+msgstr "dan na mađarskom"
+
+#: models.py:185
+msgid "day on english"
+msgstr "dan na engleskom"
+
+#: models.py:187
+msgid "is regular meeting day?"
+msgstr "da li je ovo dan za redovan sastanak?"
+
+#: models.py:191
+msgid "week day"
+msgstr "dan u nedelji"
+
+#: models.py:192
+msgid "week days"
+msgstr "dani nedelje"
+
+#: models.py:210
+msgid "meeting day"
+msgstr "dan sastanka"
+
+#: models.py:211
+msgid "meeting date"
+msgstr "datum sastanka"
+
+#: models.py:212
+msgid "hour of meeting"
+msgstr "vreme sastanka"
+
+#: models.py:214
+msgid "meeting category"
+msgstr "kategorija sastanka"
+
+#: models.py:219
+msgid "meeting leader"
+msgstr "vođa sastanka"
+
+#: models.py:221
+msgid "is meeting leader publishable?"
+msgstr "da li je vođa sastanka dostupan javnosti?"
+
+#: models.py:223
+msgid "is weekly meeting?"
+msgstr "da li je nedeljni sastanak?"
+
+#: models.py:228
+msgid "regular meeting"
+msgstr "redovan sastanak"
+
+#: models.py:229
+msgid "regular meetings"
+msgstr "redovni sastanci"
+
+#: models.py:244
+msgid "Return me a day."
+msgstr "Daj mi dan."
+
+#: models.py:248
+msgid "is this a weekly meeting?"
+msgstr "da li je ovo nedeljni sastanak?"
+
+#: models.py:277
+msgid "introduction on english"
+msgstr "pretstavljanje na engleskom"
+
+#: models.py:278
+msgid "introduction on serbian"
+msgstr "pretstavljanje na srpskom"
+
+#: models.py:279
+msgid "introduction on hungarian"
+msgstr "pretstavljanje na mađarskom"
+
+#: models.py:282
+msgid "statement on english"
+msgstr "izjava na engleskom"
+
+#: models.py:283
+msgid "statement on serbian"
+msgstr "izjava na srpskom"
+
+#: models.py:284
+msgid "statement on hungarian"
+msgstr "izjava na mađarskom"
+
+#: models.py:287
+msgid "services on english"
+msgstr "služba na engleskom"
+
+#: models.py:288
+msgid "services on serbian"
+msgstr "služba na srpskom"
+
+#: models.py:289
+msgid "services on hungarian"
+msgstr "služba na mađarskom"
+
+#: models.py:296
+msgid "home page content"
+msgstr "sadržaj početne stranice"
+
+#: models.py:297
+msgid "home page contents"
+msgstr "sadržaj početne stranice"
+
+#: templates/home/detail-staff.html:11
+msgid "Golgota - Detalji osoblja"
+msgstr ""
+
+#: templates/home/detail-staff.html:17
+msgid "Detalji osoblja"
+msgstr ""
+
+#: templates/home/detail-staff.html:27
+msgid "O meni:"
+msgstr ""
+
+#: templates/home/index.html:9
+msgid "Golgota Hrišćanska Zajednica - Subotica"
+msgstr ""
+
+#: templates/home/index.html:36
+msgid "Početna"
+msgstr ""
+
+#: templates/home/index.html:37 templates/home/index.html.py:111
+msgid "Događaji"
+msgstr ""
+
+#: templates/home/index.html:38
+msgid "Galerija"
+msgstr ""
+
+#: templates/home/index.html:39
+msgid "Media"
+msgstr "Medija"
+
+#: templates/home/index.html:40
+msgid "Kontakt"
+msgstr ""
+
+#: templates/home/index.html:41
+msgid "Linkovi"
+msgstr ""
+
+#. Translators: html Introduction part
+#: templates/home/index.html:46
+msgid ""
+"Mi smo kao što nam to i ime govori, Hrišćanska Crkva. Verujemo da Biblija "
+"nije samo obična knjiga koju je lepo imati na svojoj polici pored drugih "
+"velikih i poznatih dela. Bibliju su pisali obični ljudi ali su bili "
+"inspirisani Božijim Duhom. Prosto rečeno - Bog im je diktirao šta da pišu i "
+"zato verujemo da je ona Božija reč! Ni jedno pisano poznato delo nije ni "
+"približno Bibliji."
+msgstr ""
+
+#: templates/home/index.html:47
+msgid ""
+"Ne pripadamo ni jednoj denominaciji! Kao što je bilo pre 2000 godina kada je "
+"Isus došao. Oni koji su sledili Isusa nisu imali nikakvo posebno ime, "
+"posebno odelo niti su bili deo neke denominacije pošto tada one nisu ni "
+"postojale! Prvi vernici su jednostavno verovali u Isusa i sledili ga."
+msgstr ""
+
+#: templates/home/index.html:48
+msgid "Forma Bogosluženja"
+msgstr ""
+
+#: templates/home/index.html:49
+msgid ""
+"Imamo par Biblijskih časova tokom nedelje. Tada zajedno slavimo Boga kroz "
+"pesme koje Njemu upućujemo. Nakon toga proučavamo Bibliju u vidu "
+"predavanja.  Pastor sa propovedaonice predaje. Bibliju proučavamo celu i ne "
+"naglašavamo ni jedan deo kao važniji od drugog. Sve je jednako važno!"
+msgstr ""
+
+#: templates/home/index.html:50
+msgid "Program:"
+msgstr ""
+
+#: templates/home/index.html:51
+msgid "Nedeljni sastanci"
+msgstr ""
+
+#: templates/home/index.html:59 templates/home/index.html.py:89
+msgid "Dan"
+msgstr ""
+
+#: templates/home/index.html:60 templates/home/index.html.py:90
+msgid "Datum"
+msgstr ""
+
+#: templates/home/index.html:61 templates/home/index.html.py:91
+msgid "Vreme"
+msgstr ""
+
+#: templates/home/index.html:62 templates/home/index.html.py:92
+msgid "Vrsta sastanka"
+msgstr ""
+
+#: templates/home/index.html:63 templates/home/index.html.py:93
+msgid "Vođa sastanka"
+msgstr ""
+
+#: templates/home/index.html:81
+msgid "Ostali sastanci"
+msgstr ""
+
+#: templates/home/index.html:114
+msgid "Vrsta"
+msgstr ""
+
+#: templates/home/index.html:115
+msgid "Događaj"
+msgstr ""
+
+#: templates/home/index.html:118
+msgid "Početak"
+msgstr ""
+
+#: templates/home/index.html:119
+msgid "Kraj"
+msgstr ""
+
+#: templates/home/index.html:120
+msgid "Kada se održava?"
+msgstr ""
+
+#. Translators: html Statement
+#: templates/home/index.html:175
+msgid "Verujemo (Izjava vere)"
+msgstr ""
+
+#: templates/home/index.html:176
+msgid ""
+"Da je Isus Hrist jedini Put, Istina i Život i da niko ne može doći do Boga "
+"samo kroz veru u Isusa Hrista. Svi smo grešni i ne postoji niko ko za sebe "
+"može reći da je pravedan i čist pred Njim, a ako to tvrdi onda laže samog "
+"sebe! Naš greh nas razdvaja od Boga i vodi u pakao! Jedini spas je Isus! Ko "
+"god veruje u Njega biće spašen od pakla."
+msgstr ""
+

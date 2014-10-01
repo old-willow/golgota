@@ -1,0 +1,6 @@
+.backup
+.swap
+*.orig
+*.pyc
+*.png
+*.jpg

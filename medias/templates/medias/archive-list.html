@@ -1,0 +1,16 @@
+{% extends "medias/base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+
+{% block title %}{% trans "Arhiva medije" %}{% endblock %}
+
+{% block media_archive %}
+<h1>{% trans "Arhiva medije" %}</h1>
+{% for item in audio_archives %}
+    <p><a href="{{ item.file.url }}">{{ item.title }}</a></p>
+{% endfor %}
+<br />
+<a href="{% url 'medias:index' %}">{% trans "Početna medija" %}</a>
+<br />
+<a href="{% url 'home:index' %}">{% trans "Početna" %}</a>
+{% endblock %}

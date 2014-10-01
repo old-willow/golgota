@@ -1,0 +1,91 @@
+{% load i18n %}
+{% load staticfiles %}
+
+{% if request.LANGUAGE_CODE == 'sr-latn' %}
+    <h1>Događaj: {{ event.title_sr }}</h1>
+    <p>Mesto gde se odvija događaj: {{ event.host_church }} u {{ event.location }}, na adresi {{ event.location.address }}.</p>
+    <p>Domaćin događaja je {{ event.host }}.</p>
+    <p>Događaj počinje {{ event.event_start_date }}</p>
+    {% if event.event_end_date %}
+        <p>Završava se {{ event.event_end_date }}</p>
+    {% endif %}
+    <h3>Tema događaja</h3>
+    <p>{{ event.short_description_sr }}.</p>
+    <h3>Malo opširnije može da se pročita ovde</h3>
+    <p>{{ event.description_sr }}</p>
+    {% if galleries %}
+    {% if galleries.count == 1 %}
+        <h3>Galerija</h3>
+    {% else %}
+        <h3>Galerije</h3>
+    {% endif %}
+        {%  for gallery in galleries %}
+            <li><a href="{% url 'gallery:gallery' gallery.id %}">{{ gallery.name_sr }}</a></li>
+        {% endfor %}
+    {% endif %}
+
+{% elif request.LANGUAGE_CODE == 'hu' %}
+    <h1>Esemény: {{ event.title_hu }}</h1>
+    <p>Helyiség ahol az esemény történik: {{ event.host_church }} {{ event.location }}, {{ event.location.address }} címen.</p>
+    <p>Esemény házigazdája {{ event.host }}.</p>
+    <p>Esemény kezdete {{ event.event_start_date }}</p>
+    {% if event.event_end_date %}
+        <p>Véget ér {{ event.event_end_date }}</p>
+    {% endif %}
+    <h3>Esemény témája</h3>
+    <p>{{ event.short_description_hu }}.</p>
+    <h3>Esmenényről kicsit bővebben</h3>
+    <p>{{ event.description_hu }}</p>
+    {% if galleries %}
+    {% if galleries.count == 1 %}
+        <h3>Galeria</h3>
+    {% else %}
+        <h3>Galeriák</h3>
+    {% endif %}
+        {%  for gallery in galleries %}
+            <li><a href="{% url 'gallery:gallery' gallery.id %}">{{ gallery.name_hu }}</a></li>
+        {% endfor %}
+    {% endif %}
+
+{% elif request.LANGUAGE_CODE == 'en' %}
+    <h1>Event: {{ event.title_en }}</h1>
+    <p>The actual location where event takes place: {{ event.host_church }} {{ event.location }}, address is {{ event.location.address }}.</p>
+    <p>Event host {{ event.host }}.</p>
+    <p>Event starts on {{ event.event_start_date }}</p>
+    {% if event.event_end_date %}
+        <p>Ends on {{ event.event_end_date }}</p>
+    {% endif %}
+    <h3>The Topic of Event</h3>
+    <p>{{ event.short_description_en }}.</p>
+    <h3>Little Bit More on Event</h3>
+    <p>{{ event.description_en }}</p>
+    {% if galleries %}
+    {% if galleries.count == 1 %}
+        <h3>Gallery</h3>
+    {% else %}
+        <h3>Galleries</h3>
+    {% endif %}
+        {%  for gallery in galleries %}
+            <li><a href="{% url 'gallery:gallery' gallery.id %}">{{ gallery.name_en }}</a></li>
+        {% endfor %}
+    {% endif %}
+{% endif %}
+
+{% comment %}<p>{{ event.title }}</p>{% endcomment %}
+
+
+{% if request.LANGUAGE_CODE == 'sr-latn' %}
+    <h6>Mesto na mapi gde se odvija događaj.</h6>
+{% elif request.LANGUAGE_CODE == 'hu' %}
+    <h6>Hely a térképen ahol az esemény történik.</h6>
+{% elif request.LANGUAGE_CODE == 'en' %}
+    <h6>Location on map where event is taking place.</h6>
+{% endif %}
+
+<iframe width="600" height="450" frameborder="0" styte="border:0px" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD2xGBwJlIkdizjG09T7SL6H2HpbsXiXCg&q={{ event.location.country_en }}+{{ event.location.city_en }}+{{ event.location.address }}+{{ event.location_name_en }}">
+</iframe>
+
+<br />
+<a href="{% url 'events:index' %}">{% trans "Događaji početna" %}</a>
+<br />
+<a href="{% url 'home:index' %}">{% trans "Početna" %}</a>

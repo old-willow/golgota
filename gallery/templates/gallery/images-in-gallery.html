@@ -1,0 +1,72 @@
+{% load i18n %}
+{% load staticfiles %}
+
+{% if request.LANGUAGE_CODE == 'sr-latn' %}
+    <h1>Slike u {{ gallery.name_sr }} galeriji</h1>
+
+    <p>{{ gallery.short_description_sr }}</p>
+    <p>{{ gallery.description_sr }}</p>
+
+    {% if images %}
+        {% for image in images %}
+        {{ image.title_sr }}
+        <br />
+        <img src="{{ image.image.url }}" alt="{{ image.title_sr }}" />
+        <br />
+        <br />
+        {% endfor %}
+    {% else %}
+    <p>{% trans "Ova galerija još ne sadrži slike." %}</p>
+    {% endif %}
+
+{% elif request.LANGUAGE_CODE == 'hu' %}
+    <h1>{{ gallery.name_hu }} galléria képei</h1>
+
+    <p>{{ gallery.short_description_hu }}</p>
+    <p>{{ gallery.description_hu }}</p>
+
+    {% if images %}
+        {% for image in images %}
+        {{ image.title_hu }}
+        <br />
+        <img src="{{ image.image.url }}" alt="{{ image.title_hu }}" />
+        <br />
+        <br />
+        {% endfor %}
+    {% else %}
+    <p>{% trans "Ova galerija još ne sadrži slike." %}</p>
+    {% endif %}
+
+{% elif request.LANGUAGE_CODE == 'en' %}
+    <h1>Images in {{ gallery.name_en }} gallery</h1>
+
+    <p>{{ gallery.short_description_en }}</p>
+    <p>{{ gallery.description_en }}</p>
+
+    {% if images %}
+        {% for image in images %}
+        {{ image.title_en }}
+        <br />
+        <img src="{{ image.image.url }}" alt="{{ image.title_en }}" />
+        <br />
+        <br />
+        {% endfor %}
+    {% else %}
+    <p>This gallery doesn't contain yet images.</p>
+    {% endif %}
+{% endif %}
+
+<br />
+{% if gallery.event %}
+    {% if request.LANGUAGE_CODE == 'sr-latn'  %}
+        Događaj: <a href="{% url "events:detail" gallery.event_id %}">{{ gallery.event.title_sr }}</a>
+    {% elif request.LANGUAGE_CODE == 'hu'  %}
+        Esemény: <a href="{% url "events:detail" gallery.event_id %}">{{ gallery.event.title_hu }}</a>
+    {% elif request.LANGUAGE_CODE == 'en'  %}
+        Event: <a href="{% url "events:detail" gallery.event_id %}">{{ gallery.event.title_en }}</a>
+    {% endif %}
+{% endif %}
+<br />
+<a href="{% url 'gallery:index' %}">{% trans "Lista galerija" %}</a>
+<br />
+<a href="{% url 'home:index' %}">{% trans "Početna" %}</a>

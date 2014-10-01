@@ -1,0 +1,339 @@
+[
+{
+    "pk": 1, 
+    "model": "home.stafftitle", 
+    "fields": {
+        "title": "Pastor"
+    }
+},
+{
+    "pk": 2, 
+    "model": "home.stafftitle", 
+    "fields": {
+        "title": "Teacher"
+    }
+},
+{
+    "pk": 3, 
+    "model": "home.stafftitle", 
+    "fields": {
+        "title": "Deacon"
+    }
+},
+{
+    "pk": 4, 
+    "model": "home.stafftitle", 
+    "fields": {
+        "title": "Worship Leader"
+    }
+},
+{
+    "pk": 5, 
+    "model": "home.stafftitle", 
+    "fields": {
+        "title": "Memeber of the Worship Team"
+    }
+},
+{
+    "pk": 6, 
+    "model": "home.stafftitle", 
+    "fields": {
+        "title": "Common Helper"
+    }
+},
+{
+    "pk": 7, 
+    "model": "home.stafftitle", 
+    "fields": {
+        "title": "Translator"
+    }
+},
+{
+    "pk": 8, 
+    "model": "home.stafftitle", 
+    "fields": {
+        "title": "Volunteer"
+    }
+},
+{
+    "pk": 9, 
+    "model": "home.stafftitle", 
+    "fields": {
+        "title": "Guest"
+    }
+},
+{
+    "pk": 1, 
+    "model": "home.staff", 
+    "fields": {
+        "first_name": "Theodoropulos", 
+        "last_name": "Kris", 
+        "title": [
+            1, 
+            2, 
+            4
+        ], 
+        "image": "images/staff-portraits/1240578_513529295398528_1089646460_n.jpg", 
+        "email": "theo@eunet.rs", 
+        "date_registered": "2014-05-07T08:47:27Z", 
+        "phone": "", 
+        "mob_phone": "", 
+        "about_me": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tellus pellentesque, rhoncus augue ut, tempus neque. Ut pulvinar, enim a venenatis semper, arcu enim hendrerit felis, tincidunt condimentum dolor augue in velit. Curabitur volutpat massa non ante luctus, quis viverra justo aliquam. Mauris lacinia auctor viverra. In tincidunt pharetra neque vitae dignissim. Quisque quis malesuada urna. Ut semper at quam nec dapibus. Curabitur varius augue non massa iaculis molestie. Phasellus id euismod nulla. Duis id mi sit amet est auctor pellentesque a nec nibh. Vestibulum ac fermentum quam, at semper arcu. Donec iaculis tincidunt neque, quis imperdiet elit sagittis sed.", 
+        "nickname": "kris", 
+        "slug": "kris"
+    }
+},
+{
+    "pk": 2, 
+    "model": "home.staff", 
+    "fields": {
+        "first_name": "Tubi\u0107", 
+        "last_name": "Vladimir", 
+        "title": [
+            2, 
+            6, 
+            8
+        ], 
+        "image": "", 
+        "email": "vlado@golgota.org.rs", 
+        "date_registered": "2014-05-07T08:48:26Z", 
+        "phone": "", 
+        "mob_phone": "", 
+        "about_me": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tellus pellentesque, rhoncus augue ut, tempus neque. Ut pulvinar, enim a venenatis semper, arcu enim hendrerit felis, tincidunt condimentum dolor augue in velit. Curabitur volutpat massa non ante luctus, quis viverra justo aliquam. Mauris lacinia auctor viverra. In tincidunt pharetra neque vitae dignissim. Quisque quis malesuada urna. Ut semper at quam nec dapibus. Curabitur varius augue non massa iaculis molestie. Phasellus id euismod nulla. Duis id mi sit amet est auctor pellentesque a nec nibh. Vestibulum ac fermentum quam, at semper arcu. Donec iaculis tincidunt neque, quis imperdiet elit sagittis sed.", 
+        "nickname": "vlado", 
+        "slug": "vlado"
+    }
+},
+{
+    "pk": 3, 
+    "model": "home.staff", 
+    "fields": {
+        "first_name": "Vajda", 
+        "last_name": "Rudolf", 
+        "title": [
+            4, 
+            5, 
+            6, 
+            8
+        ], 
+        "image": "images/staff-portraits/Bubos_kemence_melege.jpg", 
+        "email": "rudi@golgota.org.rs", 
+        "date_registered": "2014-05-07T08:49:15Z", 
+        "phone": "", 
+        "mob_phone": "", 
+        "about_me": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tellus pellentesque, rhoncus augue ut, tempus neque. Ut pulvinar, enim a venenatis semper, arcu enim hendrerit felis, tincidunt condimentum dolor augue in velit. Curabitur volutpat massa non ante luctus, quis viverra justo aliquam. Mauris lacinia auctor viverra. In tincidunt pharetra neque vitae dignissim. Quisque quis malesuada urna. Ut semper at quam nec dapibus. Curabitur varius augue non massa iaculis molestie. Phasellus id euismod nulla. Duis id mi sit amet est auctor pellentesque a nec nibh. Vestibulum ac fermentum quam, at semper arcu. Donec iaculis tincidunt neque, quis imperdiet elit sagittis sed.", 
+        "nickname": "rudi", 
+        "slug": "rudi"
+    }
+},
+{
+    "pk": 4, 
+    "model": "home.staff", 
+    "fields": {
+        "first_name": "Andrea", 
+        "last_name": "Andrea", 
+        "title": [
+            4, 
+            5, 
+            6, 
+            7, 
+            8
+        ], 
+        "image": "", 
+        "email": "andrea@golgota.org.rs", 
+        "date_registered": "2014-05-07T08:50:03Z", 
+        "phone": "", 
+        "mob_phone": "", 
+        "about_me": "my bio", 
+        "nickname": "andrea", 
+        "slug": "andrea"
+    }
+},
+{
+    "pk": 5, 
+    "model": "home.staff", 
+    "fields": {
+        "first_name": "Kalmar", 
+        "last_name": "Zvezdan", 
+        "title": [
+            2, 
+            5, 
+            6, 
+            7
+        ], 
+        "image": "", 
+        "email": "zvezdan@golgota.org.rs", 
+        "date_registered": "2014-05-07T08:52:16Z", 
+        "phone": "", 
+        "mob_phone": "", 
+        "about_me": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tellus pellentesque, rhoncus augue ut, tempus neque. Ut pulvinar, enim a venenatis semper, arcu enim hendrerit felis, tincidunt condimentum dolor augue in velit. Curabitur volutpat massa non ante luctus, quis viverra justo aliquam. Mauris lacinia auctor viverra. In tincidunt pharetra neque vitae dignissim. Quisque quis malesuada urna. Ut semper at quam nec dapibus. Curabitur varius augue non massa iaculis molestie. Phasellus id euismod nulla. Duis id mi sit amet est auctor pellentesque a nec nibh. Vestibulum ac fermentum quam, at semper arcu. Donec iaculis tincidunt neque, quis imperdiet elit sagittis sed.", 
+        "nickname": "zvezdan", 
+        "slug": "zvezdan"
+    }
+},
+{
+    "pk": 1, 
+    "model": "home.meetingtype", 
+    "fields": {
+        "meeting_name": "No meeting"
+    }
+},
+{
+    "pk": 2, 
+    "model": "home.meetingtype", 
+    "fields": {
+        "meeting_name": "Bible Study"
+    }
+},
+{
+    "pk": 3, 
+    "model": "home.meetingtype", 
+    "fields": {
+        "meeting_name": "Prayer Meeting"
+    }
+},
+{
+    "pk": 4, 
+    "model": "home.meetingtype", 
+    "fields": {
+        "meeting_name": "Worship Meeting"
+    }
+},
+{
+    "pk": 5, 
+    "model": "home.meetingtype", 
+    "fields": {
+        "meeting_name": "Men Meeting"
+    }
+},
+{
+    "pk": 6, 
+    "model": "home.meetingtype", 
+    "fields": {
+        "meeting_name": "Women Meeting"
+    }
+},
+{
+    "pk": 7, 
+    "model": "home.meetingtype", 
+    "fields": {
+        "meeting_name": "Home Meeting"
+    }
+},
+{
+    "pk": 1, 
+    "model": "home.weekday", 
+    "fields": {
+        "day": "Monday", 
+        "is_regular_meeting_day": false
+    }
+},
+{
+    "pk": 2, 
+    "model": "home.weekday", 
+    "fields": {
+        "day": "Tuesday", 
+        "is_regular_meeting_day": false
+    }
+},
+{
+    "pk": 3, 
+    "model": "home.weekday", 
+    "fields": {
+        "day": "Wednesday", 
+        "is_regular_meeting_day": true
+    }
+},
+{
+    "pk": 4, 
+    "model": "home.weekday", 
+    "fields": {
+        "day": "Thursday", 
+        "is_regular_meeting_day": false
+    }
+},
+{
+    "pk": 5, 
+    "model": "home.weekday", 
+    "fields": {
+        "day": "Friday", 
+        "is_regular_meeting_day": false
+    }
+},
+{
+    "pk": 6, 
+    "model": "home.weekday", 
+    "fields": {
+        "day": "Saturday", 
+        "is_regular_meeting_day": false
+    }
+},
+{
+    "pk": 7, 
+    "model": "home.weekday", 
+    "fields": {
+        "day": "Sunday", 
+        "is_regular_meeting_day": true
+    }
+},
+{
+    "pk": 1, 
+    "model": "home.regularmeeting", 
+    "fields": {
+        "meeting_type": 2, 
+        "hour": "19:00:00", 
+        "meeting_leader": 1, 
+        "is_weekly": true, 
+        "date": "2014-05-07", 
+        "day": 3
+    }
+},
+{
+    "pk": 2, 
+    "model": "home.regularmeeting", 
+    "fields": {
+        "meeting_type": 3, 
+        "hour": "18:00:00", 
+        "meeting_leader": 1, 
+        "is_weekly": true, 
+        "date": "2014-05-07", 
+        "day": 3
+    }
+},
+{
+    "pk": 3, 
+    "model": "home.regularmeeting", 
+    "fields": {
+        "meeting_type": 2, 
+        "hour": "18:00:00", 
+        "meeting_leader": 1, 
+        "is_weekly": true, 
+        "date": "2014-05-11", 
+        "day": 7
+    }
+},
+{
+    "pk": 4, 
+    "model": "home.regularmeeting", 
+    "fields": {
+        "meeting_type": 5, 
+        "hour": "19:00:00", 
+        "meeting_leader": 2, 
+        "is_weekly": false, 
+        "date": "2014-05-30", 
+        "day": 5
+    }
+},
+{
+    "pk": 5, 
+    "model": "home.regularmeeting", 
+    "fields": {
+        "meeting_type": 6, 
+        "hour": "19:00:00", 
+        "meeting_leader": 4, 
+        "is_weekly": false, 
+        "date": "2014-05-23", 
+        "day": 5
+    }
+}
+]
